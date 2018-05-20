@@ -192,9 +192,39 @@ h2 {
 }
 .gallerytxt {
 	color: #fff;
+	margin-bottom: 30px;
 }
-
-
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+.slider {
+  width: 750px;
+  height: 400px;
+}
+#mySwipe {
+  width: 750px;
+  height: 400px;
+  margin: 0 auto;
+}
+.butslider {
+  text-align: center;
+  padding-top: 20px;
+}
+.butslider button {
+	background: #874d90;
+	color: #fff;
+}
 .contact {
 	background: #4c4b4c;
 	height: 440px;
@@ -269,8 +299,3 @@ h4 {
 .fixbut:hover {
 	 background: #874d90; 
 }
-
-
-  {
- 	border: 1px solid red ;
- }
