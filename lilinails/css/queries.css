@@ -60,7 +60,7 @@ body {
 .navmenu {
 	display: none;
 }
-#header {
+.header {
 	position: fixed;
 	top: 0px;
 	width: 100%;
