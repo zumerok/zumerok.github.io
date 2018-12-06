@@ -67,9 +67,7 @@ body {
 	height: 52px;
 	background: #fff;
 	z-index: 9999;
-}
-.bgimg {
-	margin-top: 52px;
+	border-bottom: 1px solid #999;
 }
 /* mobile menu */
 .menumobile {
@@ -151,6 +149,9 @@ body {
 	height: 40px;
 	width: 40px;
 }
+#about {
+	padding-top: 50px;
+}
 .aboutitem {
 	display: flex;
 	display: -webkit-flex;
@@ -165,6 +166,9 @@ body {
 }
 .aboutitem_img img {
 	width: 100%;
+}
+#services {
+	padding-top: 30px;
 }
 .services_manicure {
 	display: flex;
@@ -213,6 +217,9 @@ body {
 	width: 80%;
 	height: 80%;
 }
+#gallery {
+	padding-top: 30px;
+}
 .gallery {
 	margin-top: 50px;
 	height: 465px;
@@ -234,6 +241,10 @@ body {
 }
 .line {
 	width: 200px;
+	margin-top: 40px;
+}
+.services_pedicure {
+	margin-top: 40px;
 }
 .contact{
 	height: 90%;
