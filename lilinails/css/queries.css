@@ -68,6 +68,7 @@ body {
 	background: #fff;
 	z-index: 9999;
 	border-bottom: 1px solid #f3f3f3;
+	box-shadow: 0px 0px 12px 0px #999;
 }
 /* mobile menu */
 .menumobile {
@@ -182,9 +183,6 @@ body {
 	display: block;
 	margin: 0 auto;
 }
-.services_manictxt{
-	margin-top: 20px;
-}
 .services_pedicure {
 	display: flex;
 	display: -webkit-flex;
@@ -201,6 +199,7 @@ body {
 }
 .titlebrands {
 	font-size: 1.5rem;
+	margin-bottom: 20px;
 }
 .brands_item {
 	display: flex;
