@@ -6,7 +6,6 @@
 	<title>Lili_Nails</title>
 	<link rel="shortcut icon" type="image/png" href="img/lsl16.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1 , user-scalable=0">
-	<style> @font-face { font-family: PinyonScript; src: url(fonts/PinyonScript.ttf); } </style>
 	<style> @font-face { font-family: century_gothic; src: url(fonts/century_gothic.woff); } </style>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/queries.css">
@@ -29,7 +28,7 @@
 				  <li><a href="#contact">CONTACTS</a></li>  
 				</ul>
 			</div>
-			<div class="logomenu">
+			<div id="logomenu" class="logomenu">
 				<nav>
 					<ul class="social">
 						<li>
@@ -65,12 +64,11 @@
 			</div>	
 		</div>
 	</header>
-	<hr noshade color="#999" size="0" class="headerline">
+	<main id="main" class="main">
 	<section id="about" class="about">
 		<div class="container">
-			<div class="abouttitle">
-				
-				<h3>Make Your World Beautiful</h3>
+			<div class="abouttitle">	
+				<img src="img/make.png" alt="" class="make">
 			</div>
 			<div class="aboutitem">
 				<div class="aboutitem_img">
@@ -180,12 +178,13 @@
 			</div>		
 		</div>
 	</section>
+	</main>
 	<footer class="footer">
 		<div class="container">
 			<div class="copy">© 2018 zumerok. All rights reserved</div>
 		</div>
 	</footer>
-	<a class="fixbut" href="#about"> <img src="img/up.png" alt=""></a>
+	<a class="fixbut" href="#main"> <img src="img/up.png" alt=""></a>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script src='js/swipe.js'></script>
 	<script type="text/javascript" src="js/main.js"></script>
