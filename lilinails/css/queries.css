@@ -63,6 +63,9 @@ body {
 .headerline{
 	display: none;
 }
+.button {
+	margin-top: 20px;
+}
 .header {
 	position: fixed;
 	top: 0px;
@@ -187,6 +190,7 @@ body {
 .services_manicure img {
 	display: block;
 	margin: 0 auto;
+	margin-top: 20px;
 }
 .services_pedicure {
 	display: flex;
@@ -221,11 +225,8 @@ body {
 	width: 80%;
 	height: 80%;
 }
-#gallery {
-	padding-top: 30px;
-}
 .gallery {
-	margin-top: 50px;
+	padding-top: 30px;
 	height: 465px;
 }
 .gallerytxt {

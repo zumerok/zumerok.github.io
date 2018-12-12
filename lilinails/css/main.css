@@ -25,6 +25,26 @@ body {
 ol, ul {
 	list-style: none;
 }
+.button {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	border: 1px solid #999;
+	border-radius: 3px;
+	padding: 15px 0;
+	margin-top: 40px;
+	text-decoration: none;
+	color: #303030;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.button:hover {
+	background: #f6e8e5;
+}
+.brands {
+	display: none;
+}
 .header {
 	top: 0;
 	width: 100%;
@@ -111,6 +131,7 @@ h1 {
 	flex-direction: row;
 	justify-content: space-between;
 	margin-top: 50px;
+	padding-bottom: 20px;
 }	
 .aboutitem_img {
 	width: 360px;
