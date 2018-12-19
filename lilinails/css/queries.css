@@ -300,6 +300,7 @@ body {
 	margin: 0 auto;
 }
 .video {
-	width: 320px;
+	width: 100%;
+	border: 1px solid #999;
 } 
 }
