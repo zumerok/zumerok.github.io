@@ -32,7 +32,7 @@ ol, ul {
 	border: 1px solid #999;
 	border-radius: 3px;
 	padding: 15px 0;
-	margin-top: 40px;
+	margin-top: 30px;
 	text-decoration: none;
 	color: #303030;
 	font-size: 20px;
@@ -76,7 +76,7 @@ ol, ul {
 	justify-content: space-between;
 }
 .logo {
-	width: 200px;
+	width: 70px;
 	margin: 5px 0px 5px 0px;
 }
 .logo img {
@@ -144,6 +144,19 @@ h1 {
 	color: #000;
 	text-align: center;
 	margin-top: 12%;
+}
+.aboutus {
+	padding-bottom: 30px;
+}
+.aboutustitle h4 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.aboutus p {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 600px;
+	line-height: 26px;
 }
 .services {
 	background: #faf3f1;
@@ -333,13 +346,27 @@ h4 {
 .brands {
 	padding-top: 60px;
 }
+.tariff {
+	margin-top: 20px;
+	width: 100%;
+}
+.tariff1  {
+	margin-left: 60px;
+	width: 40%;
+}
+.tariff3 {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}  
+
 .footer {
-	background: #b1b1b1;
-	height: 50px;
 	padding-top: 30px;
+	height: 50px;
+	background: #b5b5b5;
 }
 .copy {
-	color: #ddd;
+	color: #eee;
 	text-align: center;
 }
 .fixbut {

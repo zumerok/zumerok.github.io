@@ -176,6 +176,16 @@ body {
 .aboutitem_img img {
 	width: 100%;
 }
+.aboutitem_text p {
+	display: none;
+}
+.aboutustitle h4 {
+	font-size: 28px;
+}
+.aboutus p {
+	width: 90%;
+	line-height: 24px;
+}
 #services {
 	padding-top: 30px;
 }
@@ -273,4 +283,23 @@ body {
 .copy {
 	font-size: 14px;
 }
+.tariff {
+	width: 100%;
+}
+.tariff1 {
+	margin-left: 0;
+	margin-right: 20px;
+	width: 100%
+}
+.tariff2 {
+	margin-right: 20px;
+	width: 100%
+}
+.tariff3 {
+	display: block;
+	margin: 0 auto;
+}
+.video {
+	width: 100%;
+} 
 }
