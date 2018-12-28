@@ -113,6 +113,9 @@ h1 {
 	text-align: center;
 	margin-top: 40px;
 }
+.main_about {
+	background: url(../img/bg_color1.jpg);
+}
 .about {
 	padding-top: 80px;
 }
