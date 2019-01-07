@@ -65,6 +65,8 @@ body {
 }
 .button {
 	margin-top: 20px;
+	width: 130px;
+	padding: 5px 0;
 }
 .header {
 	position: fixed;
