@@ -121,9 +121,9 @@ body {
 }
 .btn-menu span {
   display: block;
-  height: 5px;
+  height: 2px;
   background-color: #999;
-  margin: 5px 0 0;
+  margin: 8px 0 0;
   transition: all .1s linear .23s;
   position: relative;
 }
