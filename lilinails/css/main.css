@@ -1,0 +1,399 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	font-family: century_gothic;
+}
+ol, ul {
+	list-style: none;
+}
+.button {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	border: 1px solid #999;
+	border-radius: 3px;
+	padding: 15px 0;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #303030;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.button:hover {
+	background: #f6e8e5;
+}
+.header {
+	top: 0;
+	width: 100%;
+	background: #fff;
+	position: fixed;
+	display: block;
+	z-index: 999;
+	height: 80px;
+	border-bottom: 1px solid #b1b1b1;
+	box-shadow: 0px 0px 10px 0px #999;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+.menumobile {display: none;}
+.logomenu {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.social {
+	width: 240px;
+	margin-top: 8%;
+	height: 0%;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logo {
+	width: 70px;
+	margin: 5px 0px 5px 0px;
+}
+.logo img {
+	display: block;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+}
+.menu {
+	margin-top: 10%;
+	width: 300px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.menu a {
+	font-family: arial;
+	font-size: 15px;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.menu a:hover {
+	color: #888;
+}
+.home_img {
+	width: 20px;
+	height: 20px;
+	margin: -5px 10px -3px 80px;
+}
+h1 {
+	color: #303030;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 40px;
+}
+.main_about {
+	background: url(../img/bg_color1.jpg);
+}
+.about {
+	padding-top: 80px;
+}
+.make {
+	display: block;
+	width: 320px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.aboutitem {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 50px;
+	padding-bottom: 20px;
+}	
+.aboutitem_img {
+	width: 360px;
+}
+.aboutitem_text {
+	width: 380px;
+	margin: 0 30px;
+}
+.aboutitem_text p {
+	font-size: 16px;
+	line-height: 24px;
+	text-indent: 10px;
+	color: #000;
+	text-align: center;
+	margin-top: 12%;
+}
+.aboutus {
+	padding-bottom: 30px;
+}
+.aboutustitle h4 {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.aboutus p {
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 600px;
+	line-height: 26px;
+}
+.services {
+	background: #faf3f1;
+	padding-top: 60px;
+	padding-bottom: 50px;
+}
+.services_manicure {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+.services_manictxt {
+	width: 380px;
+	margin: 0 30px;
+}
+.services p {
+	font-size: 16px;
+	line-height: 24px;
+	text-indent: 10px;
+	color: #000;
+	text-align: center;
+	margin-top: 5%;
+}
+h2 {
+	font-family: arial;
+	font-size: 24px;
+	font-weight: bold;
+	color: #303030;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10px;
+}
+.manic {
+	width: 320px;
+	height: 320px;
+	margin-right: 35px;
+}
+.services_pedicure {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+.pedicure {
+	width: 320px;
+	height: 320px;
+	margin-left: 35px;
+}
+.services_pedicuretxt {
+	width: 380px;
+	margin: 0 30px;
+}
+.line {
+	width: 850px;
+	margin-top: 80px;
+}
+.titlebrands {
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+.brands_item {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.item {
+	width: 300px;
+	height: 300px;
+	padding-top: 5%;
+}
+.item img {
+	display: block;
+	margin: 0 auto;
+}
+.gallery {
+	background: url(../img/bg.jpg);
+	height: 600px;
+	padding-top: 50px;
+}
+.gallerytxt {
+	margin-bottom: 20px;
+	color: #303030;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+.slider {
+  width: 750px;
+  height: 460px;
+}
+#mySwipe {
+  width: 750px;
+  height: 460px;
+  margin: 0 auto;
+}
+.butslider {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 0 auto;
+    width: 720px;
+    margin-top: -260px;  
+}
+.butslider a {
+	width: 50px; height: 50px;
+	border-radius: 50%;
+	background: #fff;
+	color: #fff;
+	opacity: 0.5;
+}
+.butslider a:hover {
+	background: #7f7f7f;
+	cursor: pointer;
+}
+.butslider img {
+	margin: 25%;
+}
+.contact {
+	background: url(../img/bg.jpg);
+	color: #303030;
+	height: 340px;
+	padding-top: 1px;
+}
+h4 {
+	text-align: center;
+	font-size: 36px;
+	margin-top: 50px;
+}
+.location {
+	margin-top: 55px;
+}
+.map {
+	width: 15px;
+	height: 15px;
+	margin-right: 20px;
+}
+.location p {
+	font-size: 18px;
+	font-weight: bold;
+}
+.phone {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.phone p {
+	font-size: 18px;
+	font-weight: bold;
+}
+.mail {
+	display: inline;
+	margin-top: 35px;
+	width: 360px;
+}
+.mail p {
+	font-size: 18px;
+	font-weight: bold;
+}
+.social2 {
+	width: 160px;
+	height: 0%;
+	margin-top: 35px;
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	justify-content: space-between;	
+}
+.social2 img {
+	width: 40px; height: 40px;
+}
+.brands {
+	padding-top: 60px;
+}
+.tariff {
+	margin-top: 20px;
+	width: 100%;
+}
+.tariff1  {
+	margin-left: 60px;
+	width: 40%;
+}
+.tariff3 {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}  
+
+.footer {
+	padding-top: 30px;
+	height: 50px;
+	background: #b5b5b5;
+}
+.copy {
+	color: #eee;
+	text-align: center;
+}
+.fixbut {
+	position: fixed; bottom: 40px; right: 20px;
+	display: block;background: #874d90;
+	width: 50px; height: 50px;
+	opacity: 0.5;
+	border-radius: 50%; 
+}
+.fixbut img {
+	margin: 25%;
+}
+.fixbut:hover {
+	 background: #7f7f7f; 
+}
+
+
+
+
+  {
+	border: 1px solid red;
+}
