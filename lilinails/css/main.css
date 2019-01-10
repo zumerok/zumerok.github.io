@@ -86,12 +86,12 @@ ol, ul {
 	margin: 0 auto;
 }
 .menu {
+	margin-top: 10%;
 	width: 300px;
 	display: flex;
 	display: -webkit-flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 10%;
 }
 .menu a {
 	font-family: arial;
@@ -103,6 +103,11 @@ ol, ul {
 }
 .menu a:hover {
 	color: #888;
+}
+.home_img {
+	width: 20px;
+	height: 20px;
+	margin: -5px 10px -3px 80px;
 }
 h1 {
 	color: #303030;
