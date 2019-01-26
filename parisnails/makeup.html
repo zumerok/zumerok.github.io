@@ -9,6 +9,7 @@
 	<style> @font-face { font-family: century_gothic; src: url(fonts/century_gothic.woff); } </style>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/queries.css">
+	<link rel="stylesheet" href="css/lightbox.css">
 </head>
 <body>
 	<header id="header" class="header">
@@ -71,43 +72,28 @@
 			</div>	
 		</div>
 	</header>
-	<main id="main_about" class="main_about">
-	<section id="about" class="about">
-		<div class="container">
-			<div class="abouttitle">	
-				<img src="img/make.png" alt="" class="make">
-			</div>
-			<div class="aboutitem">
-				<div class="aboutitem_img">
-					<video  playsinline controls autoplay="autoplay" src="video/lsl_htmlauto.mp4" class="video"></video>
-				</div>	
-			</div>
-		</div>
-	</section>
-	<section id="aboutus" class="aboutus">
-		<div class="container">
-			<div class="aboutustitle">	
-				<h4>About Us</h4>
-			</div>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-			</p>
-						
-		</div>
-	</section>
+	<main id="main_gallery" class="main_gallery">
+    	<div class="gallery_img">
+      		<a  href="img/makeup/1.jpg" data-lightbox="example-1"><img  src="img/makeup/1.jpg" alt="img1" /></a>
+      		<a  href="img/makeup/2.jpg" data-lightbox="example-1"><img  src="img/makeup/2.jpg" alt="img2" /></a>
+      		<a  href="img/makeup/3.jpg" data-lightbox="example-1"><img  src="img/makeup/3.jpg" alt="img3" /></a>
+      		<a  href="img/makeup/4.jpg" data-lightbox="example-1"><img  src="img/makeup/4.jpg" alt="img4" /></a>
+      		<a  href="img/makeup/5.jpg" data-lightbox="example-1"><img  src="img/makeup/5.jpg" alt="img5" /></a>
+      		
+       	</div>	
 	</main>
-<footer class="footer">
+
+
+
+
+	<footer class="footer">
 		<div class="container">
 			<div class="copy">© 2019 zumerok. All rights reserved</div>
 		</div>
 	</footer>
-	<a class="fixbut" href="#main_about"> <img src="img/up.png" alt=""></a>
+	<a class="fixbut" href="#main_gallery"> <img src="img/up.png" alt=""></a>
 	<script src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script src='js/lightbox.js'></script>
 </body>
 </html>
-
-
-
