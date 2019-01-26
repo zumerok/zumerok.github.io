@@ -7,7 +7,11 @@ $(function(){
     $('html, body').animate({scrollTop: dn}, 500);
   });
 });
-/* slider */
-var elem = document.getElementById('mySwipe');
-window.mySwipe = Swipe(elem, {
+
+/* on off menu */
+$('.on_off').on('click', function(e) {
+	e.preventDefault();
+ $('.submenu').toggleClass('menu_on');
 });
+
+
