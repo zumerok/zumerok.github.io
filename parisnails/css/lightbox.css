@@ -49,15 +49,13 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; 
-
 }
+
 .gallery_img a img {
   width: 230px;
   height: 230px;
   margin-top: 8px;
 }
-
-
 
 .lightbox a img {
   border: none;
@@ -72,31 +70,13 @@ body {
   
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: white;
+  background-color: #333;
 }
 
 .lb-outerContainer:after {
   content: "";
   display: table;
   clear: both;
-}
-
-.lb-loader {
-  position: absolute;
-  top: 43%;
-  left: 0;
-  height: 25%;
-  width: 100%;
-  text-align: center;
-  line-height: 0;
-}
-
-.lb-cancel {
-  display: block;
-  width: 32px;
-  height: 32px;
-  margin: 0 auto;
-  background: url(../img/loading.gif) no-repeat;
 }
 
 .lb-nav {

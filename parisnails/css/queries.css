@@ -46,6 +46,9 @@ body {
 .headerline{
 	display: none;
 }
+.fixbut {
+	display: none;
+}
 .button {
 	margin-top: 20px;
 	width: 130px;
@@ -57,7 +60,7 @@ body {
 	width: 100%;
 	height: 55px;
 	background: #fff;
-	z-index: 999;
+	z-index: 10;
 	box-shadow: 0px 0px 10px 0px #999;
 }
 
@@ -73,14 +76,16 @@ body {
   margin: 0;
   box-sizing: border-box;
   width: 200px;
-  background-color: #eee;
-  height: 50%;
+  height: 270px;
   top: 0;
-  left: -200px;
+  left: -210px;
   transition: left .2s;
   z-index: 2;
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
+  background-color: #eee;
+  border: 1px solid #999;
+  box-shadow: 5px 5px 10px -2px #999;
 }
 .hidden-menu a {
 	color: #999;
@@ -132,6 +137,24 @@ body {
   -webkit-transform: rotate(-45deg);
   top: -10px;
 }
+.submenu {
+	display: none;
+	position: absolute;
+	z-index: 5;
+	width: 110px;
+	height: 185px;
+	margin-left: -10px;
+	padding: 10px 10px 10px 30px;
+	border: 1px solid #999;
+	background: #fff;
+	box-shadow: 5px 5px 10px -2px #999;
+}
+
+.menu_on {
+	display: block;
+}
+
+/* LOGO */
 .logo {
 	margin: 0 auto;
 	margin-top: 7px;
@@ -141,8 +164,10 @@ body {
 	height: 40px;
 	width: 40px;
 }
+/* About */
 #about {
 	padding-top: 60px;
+	padding-bottom: 30px;
 }
 .make {
 	width: 280px;
@@ -161,6 +186,7 @@ body {
 }
 .aboutitem_img img {
 	width: 100%;
+	margin-bottom: 20px;
 }
 .aboutitem_text p {
 	display: none;
@@ -172,8 +198,12 @@ body {
 	width: 90%;
 	line-height: 24px;
 }
+/* Services */
 #services {
 	padding-top: 30px;
+}
+#services p {
+	display: none;
 }
 .services_manicure {
 	display: flex;
@@ -186,7 +216,8 @@ body {
 .services_manicure img {
 	display: block;
 	margin: 0 auto;
-	margin-top: 20px;
+	margin-top: 40px;
+	order: -1;
 }
 .services_pedicure {
 	display: flex;
@@ -229,6 +260,7 @@ body {
 .services_pedicure {
 	margin-top: 40px;
 }
+/* Contact */
 .contact{
 	height: 90%;
 	padding-bottom: 10px;

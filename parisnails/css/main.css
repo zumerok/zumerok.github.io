@@ -104,10 +104,29 @@ ol, ul {
 .menu a:hover {
 	color: #888;
 }
+.submenu {
+	display: none;
+	position: absolute;
+	width: 95px;
+	height: 100px;
+	margin-left: -10px;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #999;
+	background: #fff;
+	box-shadow: 5px 5px 10px -2px #999;
+}
+.submenu > li {
+	margin-bottom: 5px;
+}
+
+li:hover ul {
+	display: block;
+}
+
 .home_img {
 	width: 20px;
 	height: 20px;
-	margin: -5px 10px -3px 80px;
+	margin: -5px 5px -3px 120px;
 }
 h1 {
 	color: #303030;
@@ -176,7 +195,7 @@ h1 {
 	display: -webkit-flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 60px;
+	margin-top: 80px;
 }
 .services_manictxt {
 	width: 380px;
@@ -339,8 +358,3 @@ h4 {
 }
 
 
-
-
-  {
-	border: 1px solid red;
-}
