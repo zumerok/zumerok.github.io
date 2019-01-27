@@ -20,3 +20,10 @@ $('.menu-btn').on('click', function(e) {
   $(this).toggleClass('menu-btn_active');
   $('.menu_lang').toggleClass('menu_active');
 });
+
+$('.ru').on('click', function() {
+  alert ('Учи английский язык !')
+});
+$('.fr').on('click', function() {
+  alert ('Учи английский язык !')
+});
