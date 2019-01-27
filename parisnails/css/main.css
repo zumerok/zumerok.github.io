@@ -22,6 +22,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	font-family: century_gothic;
 }
+a {
+	text-decoration: none;
+}
 ol, ul {
 	list-style: none;
 }
