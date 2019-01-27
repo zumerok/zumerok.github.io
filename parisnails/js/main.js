@@ -14,4 +14,9 @@ $('.on_off').on('click', function(e) {
  $('.submenu').toggleClass('menu_on');
 });
 
-
+/* language menu */
+$('.menu-btn').on('click', function(e) {
+  e.preventDefault();
+  $(this).toggleClass('menu-btn_active');
+  $('.menu_lang').toggleClass('menu_active');
+});
