@@ -137,6 +137,7 @@ body {
   -webkit-transform: rotate(-45deg);
   top: -10px;
 }
+
 .submenu {
 	display: none;
 	position: absolute;
@@ -164,7 +165,23 @@ body {
 	height: 40px;
 	width: 40px;
 }
-/* About */
+
+	/* Language menu */
+.menu-lang {
+	position: fixed;
+	top: 11px;
+	right: 15px;
+}
+.menu-btn {
+  width: 32px;
+  height: 32px;
+}
+.menu_lang a {
+	width: 25px;
+	height: 25px;
+}
+
+    /* About */
 #about {
 	padding-top: 60px;
 	padding-bottom: 30px;
