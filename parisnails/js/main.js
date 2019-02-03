@@ -8,12 +8,6 @@ $(function(){
   });
 });
 
-/* on off menu */
-$('.on_off').on('click', function(e) {
-	e.preventDefault();
- $('.submenu').toggleClass('menu_on');
-});
-
 /* language menu */
 $('.menu-btn').on('click', function(e) {
   e.preventDefault();
