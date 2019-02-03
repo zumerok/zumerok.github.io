@@ -28,6 +28,24 @@ a {
 ol, ul {
 	list-style: none;
 }
+h1 {
+	color: #303030;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: arial;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 40px;
+}
+h2 {
+	font-family: arial;
+	font-size: 24px;
+	font-weight: bold;
+	color: #303030;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 10px;
+}
 .button {
 	display: block;
 	width: 200px;
@@ -45,6 +63,12 @@ ol, ul {
 .button:hover {
 	background: #f6e8e5;
 }
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+   /* header */
 .header {
 	top: 0;
 	width: 100%;
@@ -55,10 +79,6 @@ ol, ul {
 	height: 80px;
 	border-bottom: 1px solid #b1b1b1;
 	box-shadow: 0px 0px 10px 0px #999;
-}
-.container {
-	width: 960px;
-	margin: 0 auto;
 }
 .menumobile {display: none;}
 .logomenu {
@@ -184,20 +204,20 @@ li:hover ul {
   transform: translate(0%, 150%);
 }
 
-h1 {
-	color: #303030;
-	font-weight: bold;
-	text-transform: uppercase;
-	font-family: arial;
-	font-size: 28px;
-	text-align: center;
-	margin-top: 40px;
+   /* main content */
+
+.main_gallery , .main_tariff {
+  min-height: calc(100vh - 80px);
+ }
+
+
+
+
+  .about {
+	padding-top: 80px;
 }
 .main_about {
 	background: url(../img/bg_color1.jpg);
-}
-.about {
-	padding-top: 80px;
 }
 .make {
 	display: block;
@@ -265,18 +285,9 @@ h1 {
 	text-align: center;
 	margin-top: 5%;
 }
-h2 {
-	font-family: arial;
-	font-size: 24px;
-	font-weight: bold;
-	color: #303030;
-	text-transform: uppercase;
-	text-align: center;
-	margin-top: 10px;
-}
 .manic {
 	width: 320px;
-	height: 320px;
+	height: 100%;
 	margin-right: 35px;
 }
 .services_pedicure {
@@ -288,7 +299,7 @@ h2 {
 }
 .pedicure {
 	width: 320px;
-	height: 320px;
+	height: 100%;
 	margin-left: 35px;
 }
 .services_pedicuretxt {
@@ -377,7 +388,7 @@ h4 {
 	padding-top: 60px;
 }
 .tariff {
-	margin-top: 20px;
+	margin-top: 80px;
 	width: 100%;
 }
 .tariff1  {
@@ -387,7 +398,7 @@ h4 {
 .tariff3 {
 	display: block;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	
 }  
 
 .footer {
